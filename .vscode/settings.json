@@ -1,11 +1,5 @@
 {
   "deno.enable": true,
   "deno.lint": true,
-  "cSpell.words": [
-    "twind"
-  ],
-  "editor.suggest.showStatusBar": true,
-  "editor.quickSuggestions": {
-    "strings": true
-  }
+  "editor.defaultFormatter": "denoland.vscode-deno"
 }
