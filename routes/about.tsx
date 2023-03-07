@@ -1,4 +1,5 @@
 import { Handlers } from '$fresh/server.ts'
+import { Head } from '$fresh/runtime.ts'
 
 export const handler: Handlers = {
 	async GET(req, ctx) {
@@ -11,9 +12,14 @@ export const handler: Handlers = {
 
 export default function AboutPage() {
 	return (
-		<main>
-			<h1>About</h1>
-			<p>This is the about page.</p>
-		</main>
+		<>
+			<Head>
+				<title>Fresh App About</title>
+			</Head>
+			<main>
+				<h1>About</h1>
+				<p>This is the about page.</p>
+			</main>
+		</>
 	)
 }

@@ -1,6 +1,6 @@
 import { Head } from '$fresh/runtime.ts'
 import Counter from '../islands/Counter.tsx'
-import IconBrand4chan from 'icon/brand-4chan.tsx'
+import IconBrand4chan from '$icon/brand-4chan.tsx'
 
 export default function Home() {
 	return (
